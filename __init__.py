@@ -10,8 +10,9 @@
 # (at your option) any later version.
 #---------------------------------------------------------------------
 
-from PyQt4.QtGui import *
-from PyQt4.QtCore import *
+from PyQt5.QtGui import *
+from PyQt5.QtWidgets import *
+from PyQt5.QtCore import *
 
 def classFactory(iface):
     return MinimalPlugin(iface)

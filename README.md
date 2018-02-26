@@ -15,7 +15,8 @@ so the code that actually does something is not hidden among generated boilerpla
 
 ## How to use it?
 
-1. Create a new python plugin directory, e.g. ```~/.qgis2/python/plugins/minimal```
+1. Create a new python plugin directory, in QGIS go to ``Options`` > ``User Profile`` > ``Open Profile Folder``
+   and create a new folder inside ``python/plugins``
 2. Copy ```metadata.txt``` and ```__init__.py``` to that directory
 3. Start QGIS and enable the plugin (menu Plugins > Manager and Install Plugins...)
 
