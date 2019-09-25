@@ -9,7 +9,7 @@
 # (at your option) any later version.
 #---------------------------------------------------------------------
 
-from qgis.PyQt.QtWidgets import QAction, QMessageBox
+from PyQt5.QtWidgets import QAction, QMessageBox
 
 def classFactory(iface):
     return MinimalPlugin(iface)
