@@ -1,4 +1,3 @@
-# encoding: utf-8
 #-----------------------------------------------------------
 # Copyright (C) 2015 Martin Dobias
 #-----------------------------------------------------------
@@ -21,7 +20,7 @@ class MinimalPlugin:
         self.iface = iface
 
     def initGui(self):
-        self.action = QAction(u'Go!', self.iface.mainWindow())
+        self.action = QAction('Go!', self.iface.mainWindow())
         self.action.triggered.connect(self.run)
         self.iface.addToolBarIcon(self.action)
 
@@ -30,4 +29,4 @@ class MinimalPlugin:
         del self.action
 
     def run(self):
-        QMessageBox.information(None, u'Minimal plugin', u'Do something useful here')
+        QMessageBox.information(None, 'Minimal plugin', 'Do something useful here')
