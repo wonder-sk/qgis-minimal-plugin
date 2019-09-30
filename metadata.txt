@@ -1,7 +1,9 @@
 [general]
 name=Minimal
 description=Minimal plugin
+about=About this minimal plugin
 version=1.0
 qgisMinimumVersion=3.0
 author=Martin Dobias
 email=wonder.sk@gmail.com
+repository=URL to the code repository
