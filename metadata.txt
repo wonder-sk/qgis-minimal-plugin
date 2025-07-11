@@ -7,3 +7,4 @@ qgisMinimumVersion=3.0
 author=Martin Dobias
 email=wonder.sk@gmail.com
 repository=URL to the code repository
+supportsQt6=True
